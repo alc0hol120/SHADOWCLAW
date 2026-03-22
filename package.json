@@ -1,0 +1,59 @@
+{
+  "name": "sclaw-agent",
+  "version": "1.0.0",
+  "description": "SCLAW — ShadowClawAI Pre-Execution Engine. Simulate Solana transactions, analyze token security, get AI risk reports.",
+  "type": "module",
+  "main": "server/index.ts",
+  "bin": {
+    "sclaw": "./dist/cli/index.js"
+  },
+  "scripts": {
+    "server": "npx tsx server/index.ts",
+    "cli": "npx tsx cli/index.ts",
+    "build": "npx tsc --outDir dist --target ES2022 --module nodenext --moduleResolution nodenext --skipLibCheck --esModuleInterop --declaration --rootDir .",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "solana",
+    "transaction",
+    "simulator",
+    "security",
+    "ai",
+    "claw",
+    "helius",
+    "token",
+    "risk",
+    "pre-execution",
+    "blockchain",
+    "defi",
+    "web3"
+  ],
+  "author": "sclaw-ai",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alc0hol120/SHADOWCLAW"
+  },
+  "homepage": "https://github.com/alc0hol120/SHADOWCLAW",
+  "files": [
+    "dist",
+    "server",
+    "cli",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.12.0",
+    "tsx": "^4.21.0",
+    "typescript": "~5.9.3"
+  }
+}
