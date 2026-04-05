@@ -10,7 +10,7 @@
   "scripts": {
     "server": "npx tsx server/index.ts",
     "cli": "npx tsx cli/index.ts",
-    "build": "npx tsc --outDir dist --target ES2022 --module nodenext --moduleResolution nodenext --skipLibCheck --esModuleInterop --declaration --rootDir .",
+    "build": "npx tsc",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
