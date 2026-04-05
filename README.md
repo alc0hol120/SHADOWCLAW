@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">SCLAW</h1>
+  <h1 align="center">SHADOWCLAW</h1>
   <p align="center">ShadowClawAI Pre-Execution Engine</p>
   <p align="center">
     <a href="#quick-start">Quick Start</a> ·
@@ -61,7 +61,7 @@ curl http://localhost:3001/api/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1
 ## npm
 
 ```bash
-npm install sclaw-agent
+npm install shadowclaw-agent
 ```
 
 ## CLI
@@ -81,7 +81,7 @@ npx tsx cli/index.ts --help
 Example output:
 
 ```
-SCLAW — Token Security Analysis
+SHADOWCLAW — Token Security Analysis
 Analyzing EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v
 
   USDC USD Coin
