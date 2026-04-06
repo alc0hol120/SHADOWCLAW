@@ -223,6 +223,10 @@ Risk levels: `SAFE` (0-20) · `LOW` (21-40) · `MEDIUM` (41-60) · `HIGH` (61-80
 - **Express.js** — Backend API
 - **TypeScript** — Everything
 
+## DEV SOCIAL
+
+https://x.com/yieldFableX
+
 ## License
 
 MIT
